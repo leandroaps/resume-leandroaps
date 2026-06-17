@@ -90,7 +90,7 @@ const NAV_ITEMS = [
   { label: "Skills", href: "#skills" },
   { label: "Certifications", href: "#certifications" },
   { label: "Projects", href: "#projects" },
-  { label: "Recommendations", href: "#recommendations" },
+  // { label: "Recommendations", href: "#recommendations" },
 ];
 
 const EXPERIENCE = [
@@ -481,7 +481,6 @@ export function Welcome() {
           </div>
         )}
       </nav>
-
       {/* ── Hero ── */}
       <section
         id="hero"
@@ -565,7 +564,6 @@ export function Welcome() {
           <ChevronDownIcon />
         </div>
       </section>
-
       {/* ── About Me ── */}
       <section id="about" className="py-24 px-6 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto">
@@ -616,7 +614,6 @@ export function Welcome() {
           </div>
         </div>
       </section>
-
       {/* ── Education ── */}
       <section id="education" className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -647,7 +644,6 @@ export function Welcome() {
           </div>
         </div>
       </section>
-
       {/* ── Experience ── */}
       <section id="experience" className="py-24 px-6 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto">
@@ -695,7 +691,6 @@ export function Welcome() {
           </div>
         </div>
       </section>
-
       {/* ── Skills ── */}
       <section id="skills" className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -731,7 +726,6 @@ export function Welcome() {
           </div>
         </div>
       </section>
-
       {/* ── Certifications ── */}
       <section id="certifications" className="py-24 px-6 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto">
@@ -765,7 +759,6 @@ export function Welcome() {
           </div>
         </div>
       </section>
-
       {/* ── Projects ── */}
       <section id="projects" className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -807,9 +800,9 @@ export function Welcome() {
           </div>
         </div>
       </section>
-
       {/* ── Recommendations ── */}
-      <section id="recommendations" className="py-24 px-6 bg-[#F8F8F8]">
+
+      {/* <section id="recommendations" className="py-24 px-6 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto">
           <div className="animate-on-scroll">
             <SectionLabel n="07" label="Testimonials" />
@@ -865,7 +858,7 @@ export function Welcome() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── Footer ── */}
       <footer className="bg-[#222222] text-white py-16 px-6">
