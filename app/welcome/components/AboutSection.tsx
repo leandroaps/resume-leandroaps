@@ -32,7 +32,7 @@ export function AboutSection() {
             {[
               { stat: "20+", label: "Years of experience" },
               { stat: "30+", label: "Projects delivered" },
-              { stat: "5+", label: "Companies led digital transformations" },
+              { stat: "5+", label: "Companies leading digital transformations" },
             ].map(({ stat, label }) => (
               <div key={label} className="bg-white rounded-2xl p-6">
                 <p className="text-4xl font-bold text-[#222222]">{stat}</p>
