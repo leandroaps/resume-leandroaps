@@ -7,9 +7,7 @@ export function ProjectsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="animate-on-scroll">
           <SectionLabel n="06" label="Selected Work" />
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">
-            Projects
-          </h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">Projects</h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

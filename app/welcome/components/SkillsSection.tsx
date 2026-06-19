@@ -1,4 +1,5 @@
 import { SKILLS } from "../data";
+import { SeeOnLinkedIn } from "./SeeOnLinkedIn";
 import { SectionLabel } from "./shared";
 
 export function SkillsSection() {
@@ -7,9 +8,7 @@ export function SkillsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="animate-on-scroll">
           <SectionLabel n="04" label="Expertise" />
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">
-            Skills
-          </h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">Skills</h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -35,16 +34,7 @@ export function SkillsSection() {
             </div>
           ))}
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-          <a
-            href="https://www.linkedin.com/in/leandroaps/details/skills/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs text-[#7B7B7B] hover:text-[#222222] transition-colors"
-          >
-            See on LinkedIn →
-          </a>
-        </div>
+        <SeeOnLinkedIn url="skills" />
       </div>
     </section>
   );

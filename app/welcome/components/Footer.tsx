@@ -7,12 +7,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
-            <h3 className="font-semibold text-lg mb-4">
-              Leandro Aparecido de Siqueira
-            </h3>
+            <h3 className="font-semibold text-lg mb-4">Leandro Aparecido de Siqueira</h3>
             <p className="text-sm text-[#9B9B9B] leading-relaxed">
-              Senior Front-End Engineer based in Campinas, São Paulo, Brazil.
-              Building scalable web products with React &amp; TypeScript.
+              Senior Front-End Engineer based in Campinas, São Paulo, Brazil. Building scalable web
+              products with React &amp; TypeScript.
             </p>
           </div>
 
@@ -83,8 +81,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-[#9B9B9B]">
-            © {new Date().getFullYear()} Leandro Aparecido de Siqueira. All
-            rights reserved.
+            © {new Date().getFullYear()} Leandro Aparecido de Siqueira. All rights reserved.
           </p>
           <p className="text-xs text-[#9B9B9B]">
             Designed and built with ❤️ in Campinas, São Paulo, Brazil.

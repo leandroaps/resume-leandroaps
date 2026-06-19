@@ -20,7 +20,7 @@ export function useActiveSection() {
           if (entry.isIntersecting) setActive(entry.target.id);
         });
       },
-      { threshold: 0.25, rootMargin: "-80px 0px -30% 0px" },
+      { threshold: 0.25, rootMargin: "-80px 0px -30% 0px" }
     );
     sections.forEach((s) => observer.observe(s));
     return () => observer.disconnect();
@@ -37,7 +37,7 @@ export function useScrollAnimation() {
           if (entry.isIntersecting) entry.target.classList.add("is-visible");
         });
       },
-      { threshold: 0.08, rootMargin: "0px 0px -40px 0px" },
+      { threshold: 0.08, rootMargin: "0px 0px -40px 0px" }
     );
     els.forEach((el) => observer.observe(el));
     return () => observer.disconnect();

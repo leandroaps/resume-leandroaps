@@ -1,4 +1,5 @@
 import { EXPERIENCE } from "../data";
+import { SeeOnLinkedIn } from "./SeeOnLinkedIn";
 import { SectionLabel, Tag } from "./shared";
 
 export function ExperienceSection() {
@@ -7,9 +8,7 @@ export function ExperienceSection() {
       <div className="max-w-7xl mx-auto">
         <div className="animate-on-scroll">
           <SectionLabel n="03" label="Work" />
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">
-            Experience
-          </h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">Experience</h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -20,9 +19,7 @@ export function ExperienceSection() {
               style={{ transitionDelay: `${i * 80}ms` }}
             >
               <div className="mb-1">
-                <h3 className="font-semibold text-[#222222] text-base">
-                  {exp.company}
-                </h3>
+                <h3 className="font-semibold text-[#222222] text-base">{exp.company}</h3>
                 <p className="text-sm text-[#7B7B7B] mt-0.5">{exp.role}</p>
               </div>
               <p className="text-xs text-[#7B7B7B] mb-4">
@@ -30,10 +27,7 @@ export function ExperienceSection() {
               </p>
               <ul className="space-y-2 flex-1 mb-4">
                 {exp.highlights.map((h) => (
-                  <li
-                    key={h}
-                    className="text-sm text-[#7B7B7B] flex gap-2 leading-snug"
-                  >
+                  <li key={h} className="text-sm text-[#7B7B7B] flex gap-2 leading-snug">
                     <span className="text-[#222222] shrink-0 mt-0.5">·</span>
                     {h}
                   </li>
@@ -47,16 +41,7 @@ export function ExperienceSection() {
             </div>
           ))}
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-          <a
-            href="https://www.linkedin.com/in/leandroaps/details/experience/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs text-[#7B7B7B] hover:text-[#222222] transition-colors"
-          >
-            See on LinkedIn →
-          </a>
-        </div>
+        <SeeOnLinkedIn url="experience" />
       </div>
     </section>
   );

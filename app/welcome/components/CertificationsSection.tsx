@@ -1,4 +1,5 @@
 import { CERTIFICATIONS } from "../data";
+import { SeeOnLinkedIn } from "./SeeOnLinkedIn";
 import { SectionLabel } from "./shared";
 
 export function CertificationsSection() {
@@ -7,11 +8,8 @@ export function CertificationsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="animate-on-scroll">
           <SectionLabel n="05" label="Credentials" />
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">
-            Certifications
-          </h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#222222] mb-12">Certifications</h2>
         </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {CERTIFICATIONS.map((cert, i) => (
             <div
@@ -33,16 +31,7 @@ export function CertificationsSection() {
             </div>
           ))}
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-          <a
-            href="https://www.linkedin.com/in/leandroaps/details/certifications/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs text-[#7B7B7B] hover:text-[#222222] transition-colors"
-          >
-            See on LinkedIn →
-          </a>
-        </div>
+        <SeeOnLinkedIn url="certifications" />
       </div>
     </section>
   );
