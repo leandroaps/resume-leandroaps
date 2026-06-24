@@ -18,9 +18,18 @@
       "I am passionate about building products that create real value, helping teams grow, and driving continuous improvement through modern engineering practices."
     ],
     "stats": [
-      { "stat": "20+", "label": "Years of experience" },
-      { "stat": "30+", "label": "Projects delivered" },
-      { "stat": "5+", "label": "Companies leading digital transformations" }
+      {
+        "stat": "20+",
+        "label": "Years of experience building scalable web applications and enterprise solutions. My expertise includes React, TypeScript, Front-End Architecture, and Technical Leadership."
+      },
+      {
+        "stat": "30+",
+        "label": "Projects delivered. Beyond my technical background, I bring strong communication skills, experience collaborating with cross-functional teams, mentoring developers, and managing stakeholders. I enjoy acting as a bridge between business and technology, translating requirements into valuable solutions."
+      },
+      {
+        "stat": "5+",
+        "label": "Companies leading digital transformations. Throughout my career, I've led teams, modernized platforms, improved application performance, mentored engineers, and delivered high-quality products for global organizations such as Venturus (Apple), Itaú Unibanco, UOL, 3M, CI&T (Johnson & Johnson), and RaiaDrogasil."
+      }
     ]
   },
   "experience": [
