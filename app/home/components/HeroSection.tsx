@@ -14,7 +14,7 @@ export function HeroSection() {
     >
       <div className="absolute inset-0 bg-[#222222]/60" />
 
-      <div className="relative z-10 mb-8 w-40 h-40 rounded-full overflow-hidden border-4 border-white/20 shadow-lg shrink-0">
+      <div className="relative z-10 mb-8 w-60 h-60 rounded-full overflow-hidden border-4 border-white/20 shadow-lg shrink-0">
         {photoError ? (
           <div className="w-full h-full flex items-center justify-center bg-[#222222] text-white text-3xl font-semibold select-none">
             LAS
